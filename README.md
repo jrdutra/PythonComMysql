@@ -11,7 +11,7 @@ do python com um banco de dados Mysql.
 
 **O primeiro passo é rodar o seguinte comando para instalar o conector no python:**
 
-```
+```Bash
 pip install mysql-connector-python
 ```
 
