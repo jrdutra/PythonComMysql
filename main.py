@@ -3,7 +3,7 @@ import mysql.connector
 mydb = mysql.connector.connect(
     host="10.40.10.232",
     user="jrdutra",
-    password="Jrcdutra1",
+    password="123456",
     database="laravel_joao"
 )
 
