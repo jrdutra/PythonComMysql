@@ -63,7 +63,7 @@ E por fim, realizar o commit da tarefa:
 mydb.commit()
 ```
 
-Exemplo completo:
+## Exemplo completo:
 
 ```
 import mysql.connector
@@ -74,7 +74,6 @@ mydb = mysql.connector.connect(
     password="Jrcdutra1",
     database="laravel_joao"
 )
-
 
 def main():
     mycursor = mydb.cursor()
