@@ -67,7 +67,7 @@ mydb.commit()
 
 ## Exemplo completo:
 
-```
+```Python
 import mysql.connector
 
 mydb = mysql.connector.connect(
