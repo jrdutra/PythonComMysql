@@ -19,13 +19,13 @@ pip install mysql-connector-python
 
 Deve-se importar o conector com a seguinte linha:
 
-```
+```Python
 import mysql.connector
 ```
 
 Deve-se criar a conexão:
 
-```
+```Python
 mydb = mysql.connector.connect(
     host="10.40.10.232",
     user="jrdutra",
@@ -37,31 +37,31 @@ mydb = mysql.connector.connect(
 Já dentro da função onde será feito o sql, deve-se obter o cursor do mysql:
 
 
-```
+```Python
 mycursor = mydb.cursor()
 ```
 
 Posteriormente, criar o sql da seguinte forma:
 
-```
+```Python
 sql = "INSERT INTO users (name, email, password) VALUES (%s, %s, %s)"
 ```
 
 Depois deve-se criar a seguinte tupla:
 
-```
+```Python
 val = ("Leandra", "leandra@gmail.com", "123456")
 ```
 
 Então, executar o sql com a tupla de informações da seguinte forma:
 
-```
+```Python
 mycursor.execute(sql, val)
 ```
 
 E por fim, realizar o commit da tarefa:
 
-```
+```Python
 mydb.commit()
 ```
 
