@@ -5,6 +5,8 @@
 Esse repositório foi criado com a finalidade de expor um exemplo básico de conexão
 do python com um banco de dados Mysql.
 
+
+
 ## Conjunto de Passos
 
 **O primeiro passo é rodar o seguinte comando para instalar o conector no python:**
@@ -90,3 +92,9 @@ def main():
 if __name__ == "__main__":
     main()
 ```
+
+
+## Fontes: 
+
+[https://pynative.com/](https://pynative.com/install-mysql-connector-python/)
+[https://www.w3schools.com/](https://www.w3schools.com/python/python_mysql_insert.asp)
