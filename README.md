@@ -97,4 +97,5 @@ if __name__ == "__main__":
 ## Fontes: 
 
 [https://pynative.com/](https://pynative.com/install-mysql-connector-python/)
+
 [https://www.w3schools.com/](https://www.w3schools.com/python/python_mysql_insert.asp)
